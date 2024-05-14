@@ -1,0 +1,278 @@
+Index: .idea/pythonHarvardProject.iml
+===================================================================
+diff --git a/.idea/pythonHarvardProject.iml b/.idea/pythonHarvardProject.iml
+deleted file mode 100644
+--- a/.idea/pythonHarvardProject.iml	(revision 7b629b5c70be79db0295c50f156f7ce39b4be784)
++++ /dev/null	(revision 7b629b5c70be79db0295c50f156f7ce39b4be784)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.9 (pythonHarvardProject)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 7b629b5c70be79db0295c50f156f7ce39b4be784)
++++ b/.idea/misc.xml	(date 1715253516985)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.9 (pythonHarvardProject)" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (pythonHarvardProject)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app.py b/app.py
+new file mode 100644
+--- /dev/null	(date 1715259255819)
++++ b/app.py	(date 1715259255819)
+@@ -0,0 +1,8 @@
++#print("Hello World!")
++name = input("What's your name ?")
++print("Hello " + name)
++age = input("How old are you ?")
++if int(age) < 18:
++    print("You are too young")
++else:
++    print("You can access the site now")
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/pythonHarvardProject.iml\" filepath=\"$PROJECT_DIR$/.idea/pythonHarvardProject.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 7b629b5c70be79db0295c50f156f7ce39b4be784)
++++ b/.idea/modules.xml	(date 1715683416137)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonHarvardProject.iml" filepath="$PROJECT_DIR$/.idea/pythonHarvardProject.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/pythonFirstApp.iml" filepath="$PROJECT_DIR$/.idea/pythonFirstApp.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"db777f47-8aa0-42af-8705-95563b6c4619\" name=\"Changes\" comment=\"Start New Project\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 5\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2gE6R2xP6RDd8o1rmKI7rvX6uvI\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"harvardP\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"db777f47-8aa0-42af-8705-95563b6c4619\" name=\"Changes\" comment=\"\" />\r\n      <created>1715250377310</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1715250377310</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Start New Project\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715250451432</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715250451432</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"harvardP\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Start New Project\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Start New Project\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7b629b5c70be79db0295c50f156f7ce39b4be784)
++++ b/.idea/workspace.xml	(date 1715683416142)
+@@ -1,11 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="db777f47-8aa0-42af-8705-95563b6c4619" name="Changes" comment="Start New Project" />
++    <list default="true" id="db777f47-8aa0-42af-8705-95563b6c4619" name="Changes" comment="Start New Project">
++      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+@@ -15,21 +29,139 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 5
+-}]]></component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Spartan0101&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/Spartan0101/Harvard-Play.git&quot;,
++    &quot;accountId&quot;: &quot;f9992bcb-ea73-4458-9f1b-a696f25bc00a&quot;
++  }
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 5
++}</component>
+   <component name="ProjectId" id="2gE6R2xP6RDd8o1rmKI7rvX6uvI" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "harvardP"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Python.app.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+-}]]></component>
++}</component>
++  <component name="RunManager">
++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
++      <module name="pythonFirstApp" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="Tox" factoryName="Tox">
++      <module name="pythonFirstApp" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="docs" factoryName="Docutils task">
++      <module name="pythonFirstApp" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="docutils_input_file" value="" />
++      <option name="docutils_output_file" value="" />
++      <option name="docutils_params" value="" />
++      <option name="docutils_task" value="" />
++      <option name="docutils_open_in_browser" value="false" />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="docs" factoryName="Sphinx task">
++      <module name="pythonFirstApp" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="docutils_input_file" value="" />
++      <option name="docutils_output_file" value="" />
++      <option name="docutils_params" value="" />
++      <option name="docutils_task" value="" />
++      <option name="docutils_open_in_browser" value="false" />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Autodetect">
++      <module name="pythonFirstApp" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;&quot;" />
++      <option name="_new_targetType" value="&quot;PATH&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Doctests">
++      <module name="pythonFirstApp" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <method v="2" />
++    </configuration>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -54,7 +186,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1715250451432</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Start New Project">
++      <option name="closed" value="true" />
++      <created>1715250987688</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1715250987688</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
